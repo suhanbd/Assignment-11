@@ -1,0 +1,13 @@
+/**************all body style START *****/
+body{background-color:#F4F0EF ;}
+/**************all body style END *******/
+
+/**************all heading style  START ****************/
+header{display: flex;white-space: nowrap;
+       width: 100%;}
+nav>ul>li>a{text-decoration:none;}
+nav>ul>li{list-style-type: none;}
+ul{display: flex;}
+li{padding: 10px;}
+nav>ul>li> i:hover{color: #E02C6D;}
+/****************all heading style  END ******************/
