@@ -1,13 +1,59 @@
-/**************all body style START *****/
-body{background-color:#F4F0EF ;}
-/**************all body style END *******/
-
 /**************all heading style  START ****************/
 header{display: flex;white-space: nowrap;
-       width: 100%;}
+       width: 100%;margin-bottom: 40px;
+       justify-content: space-between;}
 nav>ul>li>a{text-decoration:none;}
 nav>ul>li{list-style-type: none;}
 ul{display: flex;}
 li{padding: 10px;}
 nav>ul>li> i:hover{color: #E02C6D;}
+
 /****************all heading style  END ******************/
+
+/*fast container style*/
+.fast-content{display: flex;}
+img{width: 200px;}
+button{background-color:#E02C6D;
+       border-radius: 5px;
+       color: white;
+        padding: 6px 7px 6px 7px;}
+button:hover{background-color:#E4A70E ;
+              color:black;}    
+b{font-family: 'Outfit', sans-serif;
+       font-family: 'Poppins', sans-serif;
+       font-size: 20px;}                 
+/*fast container style end*/
+
+
+
+/*9 box style*****************************************/
+.mainbox-1{border: steelblue solid 1px;
+           height: 200px;width: 90%;
+            margin: 50px;
+           display: flex;justify-content: space-between;}
+
+ .box-1{background-color: antiquewhite;
+        width: 150px;height: 200px;border-radius: 8px;
+        }
+ .box-1>img{width: 130px;margin: 8px 0px 0px 8px;}   
+ 
+ 
+ .box-2{background-color: antiquewhite;
+        width: 150px;height: 200px;}
+
+ .box-3{background-color: antiquewhite;
+       width: 150px;height: 200px;}
+ .box-1span{word-wrap:none;}             
+
+/*9box style END********************************/
+
+
+
+/*footer style START*/
+footer{background-color: black;color: white;
+       height:150px;}
+.footer{display: flex;width: 150px;
+       justify-content: space-between;
+       margin: auto;}
+.foot{text-align: center;padding:2px 0px 2px 0px;}       
+
